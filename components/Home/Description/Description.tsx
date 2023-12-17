@@ -9,7 +9,7 @@ export const Description = () => {
 		<section className={styles.Description}>
 			<div className={styles.Description__imageContainer}>
 				<Image
-					src='/images/test-bg.jpg'
+					src='/images/test-bg.jpeg'
 					alt='Hero'
 					fill
 					placeholder='blur'
