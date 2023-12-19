@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import { Header } from '@/components/shared/Header/Header';
 import { Footer } from '@/components/shared/Footer';
+import { Description } from '@/components/Home/Description';
+import { Hero } from '@/components/Home/Hero';
 import '@/sass/globals.scss';
 
 const roboto = Roboto({
@@ -23,7 +25,8 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className={roboto.className}>
 				<Header />
-
+				<Hero />
+				<Description />
 				{children}
 				<Footer />
 			</body>
