@@ -8,6 +8,14 @@ const nextConfig = {
 
 		prependData: `@import "main.scss";`,
 	},
+	images: {
+		remotePatterns: [
+			{
+				hostname: 'cdn.shopify.com',
+				protocol: 'https' || 'http',
+			},
+		],
+	},
 };
 
 module.exports = nextConfig;
