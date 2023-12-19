@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader } from '../components/shared/Loader/Loader';
+import { Loader } from '../../components/shared/Loader/Loader';
 const loading = () => {
 	return <Loader />;
 };
