@@ -7,7 +7,7 @@ interface LayoutProps {
 const layout = ({ children }: LayoutProps) => {
 	return (
 		<main>
-			<nav>Navegacion de la tienda</nav>
+			<nav>Store Navigation</nav>
 			{children}
 		</main>
 	);
