@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './MainProducts.module.scss';
 import React from 'react';
-import { getProducts } from '@/services/shopify';
+import { getProducts } from '@/services/shopify/products';
 
 export const MainProducts = async () => {
 	const res = await fetch('http://localhost:3000/api');
